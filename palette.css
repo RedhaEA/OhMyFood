@@ -1,0 +1,55 @@
+.header_img img{
+    width: 415px;
+    height: 245px;
+    margin-top: -4%;
+}
+
+
+.main_content h1{
+    font-family: Shrikhand;
+    margin-left: 10px;
+    padding-top: 5px;
+    inline-size: 100%;
+    
+    
+}
+
+.main_content{
+
+margin-top: -4rem;
+border-radius: 2rem 2rem 0 0;
+background-color: #f6f6f6;
+position: absolute;
+padding-top: 3px;
+display: flex;
+width: 100%;
+
+
+
+}
+
+.fa-heart{
+margin-left: 87%;
+width: 50%;
+display: flex;
+margin-top: 145%;
+}
+
+
+ .entrees_title{
+    margin-top: 19%;
+    margin-left: -82%;
+    font-family: Roboto;
+    display: flex;
+   border-bottom: #99e2d0 solid;
+    width: 15%;
+    height: 4%;
+    position: fixed;
+    
+   
+}
+
+
+.body{
+    position: fixed;
+}
