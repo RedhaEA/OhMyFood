@@ -1,5 +1,5 @@
 .header_img img {
-    width: 415px;
+    width: 100%;
     height: 245px;
     margin-top: -4%;
 }
@@ -7,11 +7,9 @@
 
 .main_content h1 {
     font-family: Shrikhand;
-    margin-left: 10px;
     padding-top: 5px;
     inline-size: 100%;
-
-
+    font-size: 1.8rem;
 }
 
 .main_content {
@@ -21,14 +19,13 @@
     position: absolute;
     padding-top: 3px;
     display: flex;
-    width: 100%;
     height: 100%;
     flex-direction: column;
 
 }
 
 
-.entrees_title {
+.category_title {
     display: flex;
     border-bottom: #99e2d0 solid;
     width: 45px;
@@ -40,158 +37,64 @@
     position: fixed;
 }
 
-.title{
+.title {
     display: flex;
     align-items: center;
-    padding: 0 20px 0 20px;
+    margin: 0 15px 0 15px;
 }
 
-.plat_1-title{
-    margin-TOP: 10PX ;
-    
-   
+.category-container {
+    margin: 10px 15px 0 15px;
 }
 
-.entrees{
-    margin-left: 12px;
-}
-
-.plat_1_subtitle{
-    margin-top: -18px;
-}
-
-.plat-1-price{
-   margin-left: 342px;
-   margin-top: -35px;
-   font-weight: bold;
-   
+.plat-price {
+    font-weight: bold;
+    margin-left: auto;
 }
 
 .plats {
     display: flex;
     flex-direction: column;
-    
-
 }
 
-.plat_1{
-    margin-left: 5px;
+.plat {
     border-radius: 17px;
-    width: 380px;
-    height: 61px;
+    width: 100%;
+    min-height: 61px;
     box-shadow: 0 5px 16px #0000002e;
     padding: 1px;
-    align-items: center;
-    margin-top: 10px;
-    
-}
-
-.plat-1-content{
-    margin-top: -10px;
-    margin-left: 5px;
-}
-
-.plat_2-title{
-    display: flex;
-    
-   
-}
-.plat_2{
-    margin-left: 5px;
-    border-radius: 17px;
-    width: 380px;
-    height: 61px;
-    box-shadow: 0 5px 16px #0000002e;
-    padding: 2px;
-    align-items: center;
     margin-top: 10px;
 }
-.plat-2-price{
-    margin-left: 342px;
-    margin-top: -35px;
+
+.plat-title{
     font-weight: bold;
-    
- }
- 
- .plat_2_subtitle{
-    margin-top: -18px;
 }
 
-.plat-2-content{
-    margin-top: -10px;
-    margin-left: 5px;
-}
-
-
-.plat_3-title{
+.plat-content {
     display: flex;
-    
-   
-}
-.plat_3{
-    margin-left: 5px;
-    border-radius: 17px;
-    width: 380px;
-    height: 61px;
-    box-shadow: 0 5px 16px #0000002e;
-    padding: 2px;
-    align-items: center;
-    margin-top: 10px;
-}
-.plat-3-price{
-    margin-left: 342px;
-    margin-top: -35px;
-    font-weight: bold;
-    
- }
- 
- .plat_3_subtitle{
-    margin-top: -18px;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
 }
 
-.plat-3-content{
-    margin-top: -10px;
-    margin-left: 5px;
-}
-
-
-
-.plats_title {
+.plats-title {
     display: flex;
     border-bottom: #99e2d0 solid;
     width: 45px;
     height: 38px;
-    margin-left: 15px;
     margin-top: 20px;
 }
 
-.real_plats .plats{
-    margin-left: 10px;
-}
-
-
-.desserts{
+.plat-price-container {
     display: flex;
-    border-bottom: #99e2d0 solid;
-    width: 45px;
-    height: 38px;
-    margin-left: 15px;
-    margin-top: 20px;
+    flex-direction: row;
 }
 
-.desserts .plats{
-    margin-left: -80px;
-    margin-top: 40px;
-    
-  
-}
-
-.order_button{
+.order_button {
     display: flex;
     justify-content: center;
     font-family: Roboto;
     font-weight: bold;
-    margin-top: 253px;
     width: 154px;
     padding: .72rem 1.2rem;
     border-radius: 100px;
@@ -199,53 +102,52 @@
     background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
     cursor: pointer;
     box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .25);
-    margin-left: 22%;
-    padding: 5%;
-    position: relative;
-    margin-bottom: 68px;
-
+    align-self: center;
+    padding: 15px;
+    margin: 30px 0 60px 0;
 }
+
 .section--footer {
     color: #353535;
-  }
-  
-  .logo__footer img {
+}
+
+.logo__footer img {
     width: 50%;
-  
-  }
-  
-  .footer {
+
+}
+
+.footer {
     background-color: #353535;
     padding: 18px 0px 18px 24px;
     margin-top: -30px;
     font-family: Roboto;
     font-weight: bold;
-  }
-  
-  .footer a {
+}
+
+.footer a {
     color: white;
-  }
-  
-  .footer__title {
+}
+
+.footer__title {
     font-size: 20px;
     font-family: "shrikhand";
     color: white;
-  }
-  
-  .footer__content {
+}
+
+.footer__content {
     margin-top: 15px;
-  }
-  
-  .footer__content__subtitle {
+}
+
+.footer__content__subtitle {
     margin-bottom: 8px;
-  }
-  
-  .footer__content .fas {
+}
+
+.footer__content .fas {
     margin-right: 10px;
     color: white;
-  
-  }
-  
-  .footer__content .icon {
+
+}
+
+.footer__content .icon {
     font-size: 10px;
-  }
+}
