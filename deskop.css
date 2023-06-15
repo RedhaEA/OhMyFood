@@ -1,4 +1,4 @@
-@media (min-width: 1281px) {
+@media (min-width: 990px) {
 
     .icon_localisation {
         display: flex;
@@ -80,8 +80,8 @@
     }
 
     .resto-container{
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
 
