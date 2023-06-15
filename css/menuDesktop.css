@@ -8,8 +8,6 @@
         height: 100%;
     }
 
-
-
     .body {
         width: max-content;
     }
@@ -39,29 +37,5 @@
     .order_button {
         margin-left: -1%;
         padding: 2%;
-    }
-
-
-    .footer {
-        width: 288%;
-        height: 32%;
-        display: flex;
-    }
-
-    .footer {
-        display: flex;
-    }
-
-
-    .footer__title {
-        margin-left: 100px;
-        margin-bottom: 40PX;
-    }
-
-
-    .footer__content {
-        margin-top: 40px;
-        margin-right: 50px;
-
     }
 }
