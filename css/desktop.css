@@ -104,6 +104,16 @@
         margin-bottom: 0;
         display: flex;
     }
+
+
+.fa-utensils{
+    margin-left: 10px;
+}
+
+.fa-hands-helping{
+    margin-top: 20px;
+}
+
 }
 
 
@@ -127,6 +137,3 @@
 
 
 
-
-
-}
