@@ -141,6 +141,61 @@
   }
 
 
+.loader{
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.9;
+    animation: disappear 200ms 3s forwards;
+    transform-origin: top;
+    
+
+}
+.ldr{
+    animation: spin 3s infinite linear;
+    color: rgb(154, 70, 202);
+ }
+
+
+@keyframes disappear {
+   
+    to{
+        transform: scale(0);
+    }
+}
+
+@keyframes spin {
+    to{
+      transform: rotate(360deg);  
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
