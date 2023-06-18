@@ -283,8 +283,8 @@ a:link {
 .full_heart{
   position: absolute;
   opacity: 0;
-  font-size: 27px;
-  margin-top: 1.5px;
+  font-size: 26px;
+  margin-top: 0.7px;
   transition-property: all;
   transition-duration: 0.5s;
 }
