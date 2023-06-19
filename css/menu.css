@@ -144,3 +144,11 @@
 .plat:hover>.plat-icon>i {
     visibility: visible;
 }
+
+.plat-subtitle{
+    font-size: 14px;
+}
+
+.omf_black{
+    color: black;
+}
