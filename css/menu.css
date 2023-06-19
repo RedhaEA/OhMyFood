@@ -61,13 +61,14 @@
 .plat {
     border-radius: 17px;
     width: 100%;
-    min-height: 61px;
+    height: 61px;
     box-shadow: 0 5px 16px #0000002e;
-    padding: 1px;
     margin-top: 10px;
+    display: flex;
+    min-width: 0;
 }
 
-.plat-title{
+.plat-title {
     font-weight: bold;
 }
 
@@ -76,6 +77,8 @@
     flex-direction: column;
     height: 100%;
     padding: 10px;
+    flex-grow: 1;
+    min-width: 0;
 }
 
 .plats-title {
@@ -114,4 +117,30 @@
 
 .logo__footer img {
     width: 50%;
+}
+
+.plat-icon {
+    background-color: #99e2d0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+    font-size: 20px;
+    border-radius: 0 15px 15px 0;
+    margin-left: 10px;
+    transition: width 400ms;
+}
+
+.plat-icon>i {
+    visibility: hidden;
+    transition: visibility 100ms;
+}
+
+.plat:hover>.plat-icon {
+    width: 59px;
+}
+
+.plat:hover>.plat-icon>i {
+    visibility: visible;
 }
