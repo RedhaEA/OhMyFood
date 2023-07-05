@@ -1,230 +1,148 @@
-@media (min-width: 990px) {
-
-    .icon_localisation {
-        display: flex;
-        position: absolute;
-        margin-top: -34px;
-        margin-left: 46.5%;
-    }
-
-    .reservation_title {
-        font-size: 30px;
-    }
-
-    .explore_button {
-        width: 181px;
-        padding: 1%;
-        margin-top: -4%;
-        margin-left: 44%;
-    }
-
-    .footer {
-        margin-top: 0;
-    }
-
-    .reservation_subtitle {
-        font-size: 21px;
-    }
-
-
-    .fonctionnement {
-        display: flex;
-        flex-direction: column;
-        padding: 40px 450px 40px 450px;
-    }
-
-    .steps-container {
-        flex-direction: row;
-    }
-
-    .fonctionnement_title {
-        margin-top: 0%;
-        margin-left: 0%;
-    }
-
-
-    .circle_container {
-        display: flex;
-
-    }
-
-    .step {
-        flex-grow: 1;
-    }
-
-    .exploration {
-        padding-top: 2%;
-        background-color: #F6F6F6;
-        padding-bottom: 2%;
-    }
-
-    .reservation {
-        background-color: #F6F6F6;
-        padding: 3%;
-    }
-
-
-    .section--restaurants {
-        display: flex;
-        flex-direction: column;
-        gap: 19px;
-        padding: 40px 450px 40px 450px;
-    }
-
-    .section__title {
-        margin-left: 6%;
-        margin-top: -2%;
-    }
-
-    .resto-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 40px;
-    }
-
-
-    .section--restaurants .resto {
-        margin: 0px;
-    }
-
-    .footer__content {
-        display: flex;
-        align-items: end;
-        justify-content: end;
-        gap: 30px;
-        margin-top: 0;
-        padding: 15px 15px 0 15px;
-    }
-
-    .footer__content :nth-child(1) {
-        order: 1;
-    }
-
-    .footer__content__subtitle {
-        margin-bottom: 0;
-        display: flex;
-    }
-
-
-.fa-utensils{
-    margin-left: 10px;
+.icon_localisation {
+  display: flex;
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 46.5%;
 }
 
-.fa-hands-helping{
-    margin-top: 20px;
+.reservation_title {
+  font-size: 30px;
+}
+.footer {
+  margin-top: 0;
 }
 
-
-.full_heart{
-    position: absolute;
-    opacity: 0;
-    font-size: 27px;
-    margin-top: 0.5px;
-    transition-property: all;
-    transition-duration: 0.5s;
+.reservation_subtitle {
+  font-size: 21px;
 }
 
-.full_heart:hover{
-    opacity: 1;
-    background-clip: text;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 450px 40px 450px;
 }
 
+.steps-container {
+  flex-direction: row;
+}
 
+.fonctionnement_title {
+  margin-top: 0%;
+  margin-left: 0%;
+}
 
+.circle_container {
+  display: flex;
+}
+
+.step {
+  flex-grow: 1;
+}
+
+.reservation {
+  background-color: #f6f6f6;
+  padding: 3%;
+}
+
+.section--restaurants {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  padding: 40px 450px 40px 450px;
+}
+
+.section__title {
+  margin-left: 6%;
+  margin-top: -2%;
+}
+
+.resto-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 40px;
+}
+
+.section--restaurants .resto {
+  margin: 0px;
+}
+
+.footer__content {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  gap: 30px;
+  margin-top: 0;
+  padding: 15px 15px 0 15px;
+}
+
+.footer__content :nth-child(1) {
+  order: 1;
+}
+
+.footer__content__subtitle {
+  margin-bottom: 0;
+  display: flex;
+}
+
+.fa-utensils {
+  margin-left: 10px;
+}
+
+.fa-hands-helping {
+  margin-top: 20px;
+}
+
+.full_heart {
+  position: absolute;
+  opacity: 0;
+  font-size: 27px;
+  margin-top: 0.5px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.full_heart:hover {
+  opacity: 1;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    193.33deg,
+    #9356dc -11.44%,
+    #ff79da 123.93%
+  );
+}
 
 .resto:hover {
-    cursor:pointer;
-    transform:scale(1.05);
-  }
-
-
-.loader{
-    background-color: #ffffff;
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    position: fixed;
-    inset: 0;
-    z-index: 1;
-    opacity: 0.9;
-    animation: disappear 200ms 1s forwards;
-    transform-origin: top;
-    
-
+  cursor: pointer;
+  transform: scale(1.05);
 }
-.ldr{
-    animation: spin 3s infinite linear;
-    color: rgb(154, 70, 202);
- }
 
+.loader {
+  background-color: #ffffff;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.9;
+  animation: disappear 200ms 1s forwards;
+  transform-origin: top;
+}
+.ldr {
+  animation: spin 3s infinite linear;
+  color: rgb(154, 70, 202);
+}
 
 @keyframes disappear {
-   
-    to{
-        transform: scale(0);
-    }
+  to {
+    transform: scale(0);
+  }
 }
 
 @keyframes spin {
-    to{
-      transform: rotate(360deg);  
-    }
-    
-    
+  to {
+    transform: rotate(360deg);
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
