@@ -218,6 +218,10 @@
 .delay-8 {
     animation-delay: .8s
 }
+.delay-9 {
+    animation-delay: .8s
+}
+
 
 @keyframes itemAppear {
     0% {
