@@ -66,6 +66,16 @@
     margin-top: 10px;
     display: flex;
     min-width: 0;
+    animation: itemAppear .6s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-fill-mode: none;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-fill-mode: none;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+    animation-fill-mode: both;
+    transform: scale(0);
 }
 
 .plat-title {
@@ -171,4 +181,50 @@
     transition-property: all;
     transition-duration: 0.5s;
     margin-left: 306px;
+}
+
+.delay-0 {
+    animation-delay: 0s
+}
+
+.delay-1 {
+    animation-delay: .1s
+}
+
+.delay-2 {
+    animation-delay: .2s
+}
+
+.delay-3 {
+    animation-delay: .3s
+}
+
+.delay-4 {
+    animation-delay: .4s
+}
+
+.delay-5 {
+    animation-delay: .5s
+}
+
+.delay-6 {
+    animation-delay: .6s
+}
+
+.delay-7 {
+    animation-delay: .7s
+}
+
+.delay-8 {
+    animation-delay: .8s
+}
+
+@keyframes itemAppear {
+    0% {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
 }
