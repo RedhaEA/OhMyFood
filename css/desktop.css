@@ -92,17 +92,17 @@
   margin-top: 20px;
 }
 
-.full_heart {
+.fa-heart {
   position: absolute;
-  opacity: 0;
-  font-size: 27px;
-  margin-top: 0.5px;
-  transition-property: all;
-  transition-duration: 0.5s;
-  margin-left: -1px;
 }
 
-.full_heart:hover {
+.full-heart {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.full-heart:hover {
   opacity: 1;
   background-clip: text;
   color: transparent;
@@ -146,4 +146,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.explore_button:hover{
+  box-shadow:  5px 5px 3px 0px rgba(0,0,0,0.63);
+  transition: 0.5s;  
 }
