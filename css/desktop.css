@@ -152,3 +152,9 @@
   box-shadow:  5px 5px 3px 0px rgba(0,0,0,0.63);
   transition: 0.5s;  
 }
+
+.section--restaurants .resto__heart{
+  right: 46px;
+  bottom: 53px;
+  font-size: 27px;
+}

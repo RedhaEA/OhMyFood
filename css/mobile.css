@@ -87,6 +87,11 @@ header {
   padding: 10px 15px;
 }
 
+.explore_button:hover{
+  box-shadow:  5px 5px 3px 0px rgba(0,0,0,0.63);
+    transition: 0.5s; 
+}
+
 .fonctionnement_title {
   font-family: 'Roboto';
   font-style: normal;
@@ -198,8 +203,8 @@ header {
 
 .section--restaurants .resto__heart {
   position: absolute;
-  right: 28px;
-  bottom: 25px;
+  right: 45px;
+  bottom: 53px;
   font-size: 25px;
 }
 
