@@ -52,7 +52,8 @@
     display: flex;
     flex-direction: column;
     gap: 19px;
-    padding: 40px 450px 40px 450px;
+    margin: 40px auto 40px auto;
+    max-width: 1280px;
   }
 
   .section__title {
@@ -64,10 +65,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 40px;
+    grid-column-gap: 40px;
   }
 
   .section--restaurants .resto {
     margin: 0px;
+    width: auto;
   }
 
   .footer__content {
