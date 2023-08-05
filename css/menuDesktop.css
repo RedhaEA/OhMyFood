@@ -1,134 +1,131 @@
-@media only screen and (min-width : 1224px){
-    .header_img img {
-      max-width: 100%;
-      max-height: 32rem;
-      width: 100%;
-      object-fit: cover;
-      height: 100%;
-      margin-top: 0px;
-    }
-  
-    .body {
-      width: max-content;
-    }
-  
-    .main_content {
-      margin-top: -4rem;
-      border-radius: 2rem 2rem 0 0;
-      background-color: #f6f6f6;
-      position: relative;
-      padding-top: 3px;
-      display: flex;
-      width: 39%;
-      height: 100%;
-      flex-direction: column;
-      align-items: center;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 50px;
-    }
-  
-    .fa-heart {
-      margin-left: 25px;
-    }
-  
-    .desserts {
-      margin-left: -587px;
-    }
-  
-    .order_button {
-      margin-left: -1%;
-      padding: 2%;
-    }
-  
-    .category-container {
-      width: 80%;
-    }
-  
-    .footer__content {
-      display: flex;
-      align-items: end;
-      justify-content: end;
-      gap: 30px;
-      margin-top: 0;
-      padding: 15px 15px 0 15px;
-    }
-  
-    .footer__content :nth-child(1) {
-      order: 1;
-    }
-  
-    .footer__content__subtitle {
-      margin-bottom: 0;
-      display: flex;
-    }
-  
-    .fa-utensils {
-      margin-left: 10px;
-    }
-  
-    .fa-hands-helping {
-      margin-top: 20px;
-    }
-  
-    .omf_black:visited {
-      color: black;
-    }
-  
-    .menu-check {
-      display: flex;
-      justify-content: end;
-    }
-  
-    .fa-heart {
-      position: absolute;
-    }
-    
-    .full-heart {
-      opacity: 0;
-      transition-property: all;
-      transition-duration: 0.5s;
-    }
-    
-    .full-heart:hover {
-      opacity: 1;
-      background-clip: text;
-      color: transparent;
-      -webkit-background-clip: text;
-      background-image: linear-gradient(
-        193.33deg,
+@media only screen and (min-width : 1224px) {
+  .header_img img {
+    max-width: 100%;
+    max-height: 32rem;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    margin-top: 0px;
+  }
+
+  .body {
+    width: max-content;
+  }
+
+  .main_content {
+    margin-top: -4rem;
+    border-radius: 2rem 2rem 0 0;
+    background-color: #f6f6f6;
+    position: relative;
+    padding-top: 3px;
+    display: flex;
+    width: 39%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .fa-heart {
+    margin-left: 25px;
+  }
+
+  .desserts {
+    margin-left: -587px;
+  }
+
+  .order_button {
+    margin-left: -1%;
+    padding: 2%;
+  }
+
+  .category-container {
+    width: 80%;
+  }
+
+  .footer__content {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 30px;
+    margin-top: 0;
+    padding: 15px 15px 0 15px;
+  }
+
+  .footer__content :nth-child(1) {
+    order: 1;
+  }
+
+  .footer__content__subtitle {
+    margin-bottom: 0;
+    display: flex;
+  }
+
+  .fa-utensils {
+    margin-left: 10px;
+  }
+
+  .fa-hands-helping {
+    margin-top: 20px;
+  }
+
+  .omf_black:visited {
+    color: black;
+  }
+
+  .menu-check {
+    display: flex;
+    justify-content: end;
+  }
+
+  .fa-heart {
+    position: absolute;
+  }
+
+  .full-heart {
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+  }
+
+  .full-heart:hover {
+    opacity: 1;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(193.33deg,
         #9356dc -11.44%,
-        #ff79da 123.93%
-      );
-    }
-    
-
-
-  .order_button:hover{
-    box-shadow:  5px 5px 3px 0px rgba(0,0,0,0.63);
-  transition: 0.5s;  
-}
-
-.menu_heart{
-  position: absolute;
-  right: 268px;
-  bottom: 990px;
-  font-size: 28px;
-  top: 35px;
-}
-
-
-.fa-arrow-left{
-  position: absolute;
-margin-right: 2064px;
-left: 0;
-right: 1;
-margin-left: 16px;
-font-size: 22px;
-margin-top: 26px;
-}
-
+        #ff79da 123.93%);
   }
 
 
-  
+
+  .order_button:hover {
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.63);
+    transition: 0.5s;
+  }
+
+  .menu_heart {
+    position: initial;
+    right: 268px;
+    bottom: 990px;
+    font-size: 28px;
+    top: 59px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .fa-arrow-left {
+    position: absolute;
+    margin-right: 2064px;
+    left: 0;
+    right: 1;
+    margin-left: 16px;
+    font-size: 22px;
+    margin-top: 26px;
+  }
+
+}
