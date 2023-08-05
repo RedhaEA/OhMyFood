@@ -1,164 +1,165 @@
-@media only screen and (min-width : 1224px){
+@media only screen and (min-width : 1224px) {
 
-.icon_localisation {
-  display: flex;
-  position: absolute;
-  margin-top: -34px;
-  margin-left: 46.5%;
-}
-
-.reservation_title {
-  font-size: 30px;
-}
-.footer {
-  margin-top: 0;
-}
-
-.reservation_subtitle {
-  font-size: 21px;
-}
-
-.fonctionnement {
-  display: flex;
-  flex-direction: column;
-  padding: 40px 450px 40px 450px;
-}
-
-.steps-container {
-  flex-direction: row;
-}
-
-.fonctionnement_title {
-  margin-top: 0%;
-  margin-left: 0%;
-}
-
-.circle_container {
-  display: flex;
-}
-
-.step {
-  flex-grow: 1;
-}
-
-.reservation {
-  background-color: #f6f6f6;
-  padding: 3%;
-}
-
-.section--restaurants {
-  display: flex;
-  flex-direction: column;
-  gap: 19px;
-  padding: 40px 450px 40px 450px;
-}
-
-.section__title {
-  margin-left: 6%;
-  margin-top: -2%;
-}
-
-.resto-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: 40px;
-}
-
-.section--restaurants .resto {
-  margin: 0px;
-}
-
-.footer__content {
-  display: flex;
-  align-items: end;
-  justify-content: end;
-  gap: 30px;
-  margin-top: 0;
-  padding: 15px 15px 0 15px;
-}
-
-.footer__content :nth-child(1) {
-  order: 1;
-}
-
-.footer__content__subtitle {
-  margin-bottom: 0;
-  display: flex;
-}
-
-.fa-utensils {
-  margin-left: 10px;
-}
-
-.fa-hands-helping {
-  margin-top: 20px;
-}
-
-.fa-heart {
-  position: absolute;
-}
-
-.full-heart {
-  opacity: 0;
-  transition-property: all;
-  transition-duration: 0.5s;
-}
-
-.full-heart:hover {
-  opacity: 1;
-  background-clip: text;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-image: linear-gradient(
-    193.33deg,
-    #9356dc -11.44%,
-    #ff79da 123.93%
-  );
-}
-
-.resto:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-}
-
-.loader {
-  background-color: #ffffff;
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  position: fixed;
-  inset: 0;
-  z-index: 1;
-  opacity: 0.9;
-  animation: disappear 200ms 1s forwards;
-  transform-origin: top;
-}
-.ldr {
-  animation: spin 3s infinite linear;
-  color: rgb(154, 70, 202);
-}
-
-@keyframes disappear {
-  to {
-    transform: scale(0);
+  .icon_localisation {
+    display: flex;
+    position: absolute;
+    margin-top: -34px;
+    margin-left: 46.5%;
   }
-}
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
+  .reservation_title {
+    font-size: 30px;
   }
-}
 
-.explore_button:hover{
-  box-shadow:  5px 5px 3px 0px rgba(0,0,0,0.63);
-  transition: 0.5s;  
-}
+  .footer {
+    margin-top: 0;
+  }
 
-.section--restaurants .resto__heart{
-  right: 46px;
-  bottom: 53px;
-  font-size: 27px;
-}
+  .reservation_subtitle {
+    font-size: 21px;
+  }
+
+  .fonctionnement {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 40px auto;
+    max-width: 1280px;
+  }
+
+  .steps-container {
+    flex-direction: row;
+  }
+
+  .fonctionnement_title {
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+
+  .circle_container {
+    display: flex;
+  }
+
+  .step {
+    flex-grow: 1;
+  }
+
+  .reservation {
+    background-color: #f6f6f6;
+    padding: 3%;
+  }
+
+  .section--restaurants {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 40px 450px 40px 450px;
+  }
+
+  .section__title {
+    margin-left: 6%;
+    margin-top: -2%;
+  }
+
+  .resto-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
+  }
+
+  .section--restaurants .resto {
+    margin: 0px;
+  }
+
+  .footer__content {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 30px;
+    margin-top: 0;
+    padding: 15px 15px 0 15px;
+  }
+
+  .footer__content :nth-child(1) {
+    order: 1;
+  }
+
+  .footer__content__subtitle {
+    margin-bottom: 0;
+    display: flex;
+  }
+
+  .fa-utensils {
+    margin-left: 10px;
+  }
+
+  .fa-hands-helping {
+    margin-top: 20px;
+  }
+
+  .fa-heart {
+    position: absolute;
+  }
+
+  .full-heart {
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+  }
+
+  .full-heart:hover {
+    opacity: 1;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(193.33deg,
+        #9356dc -11.44%,
+        #ff79da 123.93%);
+  }
+
+  .resto:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  .loader {
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.9;
+    animation: disappear 200ms 1s forwards;
+    transform-origin: top;
+  }
+
+  .ldr {
+    animation: spin 3s infinite linear;
+    color: rgb(154, 70, 202);
+  }
+
+  @keyframes disappear {
+    to {
+      transform: scale(0);
+    }
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .explore_button:hover {
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.63);
+    transition: 0.5s;
+  }
+
+  .section--restaurants .resto__heart {
+    right: 46px;
+    bottom: 53px;
+    font-size: 27px;
+  }
 
 }
