@@ -1,3 +1,5 @@
+@media only screen and (min-width : 1224px){
+
 .icon_localisation {
   display: flex;
   position: absolute;
@@ -157,4 +159,6 @@
   right: 46px;
   bottom: 53px;
   font-size: 27px;
+}
+
 }

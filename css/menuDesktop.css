@@ -1,4 +1,4 @@
-@media (min-width: 1281px) {
+@media only screen and (min-width : 1224px){
     .header_img img {
       max-width: 100%;
       max-height: 32rem;
@@ -127,26 +127,6 @@ margin-left: 16px;
 font-size: 22px;
 margin-top: 26px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   }
 
